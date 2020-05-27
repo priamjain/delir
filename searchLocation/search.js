@@ -47,6 +47,6 @@ function success(pos) {
 
 sbt.addEventListener("mouseenter", function(){
   crd = geocoder["mapMarker"]["_lngLat"];
-  console.log("actionPage.html?lat="+crd["lat"]+"&lng="+crd["lng"]+"&area="+JSON.parse(geocoder["lastSelected"])["text_en-GB"]);
-  sbt.setAttribute("href", "actionPage.html?lat="+crd["lat"]+"&lng="+crd["lng"]+"&area="+JSON.parse(geocoder["lastSelected"])["text_en-GB"]);
+  console.log("../actionPage/actionPage.html?lat="+crd["lat"]+"&lng="+crd["lng"]+"&area="+JSON.parse(geocoder["lastSelected"])["text_en-GB"]);
+  sbt.setAttribute("href", "../actionPage/actionPage.html?lat="+crd["lat"]+"&lng="+crd["lng"]+"&area="+JSON.parse(geocoder["lastSelected"])["text_en-GB"]);
 });

@@ -12,5 +12,5 @@ if(arr[2])
 	shoploc.setAttribute("placeholder", arr[2]);
 }
 else {
-	shoploc.setAttribute("placeholder", "set shop location");
+	shoploc.setAttribute("placeholder", "Set shop location");
 }
