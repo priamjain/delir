@@ -1,0 +1,11 @@
+.container{
+	width: 30%;
+}
+#search{
+	padding-top: 6px;
+	padding-left: 19px; 
+	background-color: #343a40;
+	color: #17a2b8;
+	text-decoration: none;
+	border-radius: 10%;
+}
