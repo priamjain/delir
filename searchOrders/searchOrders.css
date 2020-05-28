@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+#myloc{
+	margin: 70px 20px 20px 20px;
+	align-self: center;
+	border: none;
+}
+
+#card-container{
+	background-color: #f1f1f1;
+	max-width: 80%;
+	margin: 0 auto;
+	/*height: 100%;*/
+}
