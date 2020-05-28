@@ -1,6 +1,7 @@
   	.geocoder {
       position: absolute;
       z-index: 1;
+      top: 25px;
       width: 50%;
       left: 50%;
       margin-left: -10%;
@@ -34,15 +35,28 @@
     border-radius: 3px;
     display: block;
   }
+
+
   #a{
-   font-size: 2rem;
-   color: white;
-   width:250px;
-   height: 40px;
-   outline:none;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border-radius: 8%;
+    float: right;
+    margin-top:13px;
+    margin-left: 1%;
    background-color:#fc6c85;
    border:3px solid #989bb3;
- }
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  margin-right: 1%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  font-weight: 600;
+  }
+
  #a:hover{
    background-color: #a94064;
  }
