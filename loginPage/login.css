@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+}
+
+#login{
+	text-align: left;
+	background-color: #f1f1f1;
+	margin: 70px auto 20px;
+	padding: 20px;
+}
+
+#ologin p{
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#signup{
+	text-align: left;
+	background-color: #f1f1f1;
+	margin: 70px auto 20px;
+	padding: 20px;
+}
+
+#osignup p{
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0 auto;
+}
