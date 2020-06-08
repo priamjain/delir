@@ -1,0 +1,24 @@
+{
+  "name": "delir",
+  "version": "1.0.0",
+  "description": "delir",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priamjain/delir.git"
+  },
+  "author": "CRYP70N1k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priamjain/delir/issues"
+  },
+  "homepage": "https://github.com/priamjain/delir#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  }
+}
