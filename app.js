@@ -30,6 +30,14 @@ app.get("/orders/new",function(req,res){
 	res.render("actionPage/actionPage");
 });
 
+app.get("/login",function(req,res){
+	res.render("loginPage/loginPage");
+});
+
+app.get("/searchLocation",function(req,res){
+	res.render("searchLocation/searchLocation");
+});
+
 
 
 app.listen(3000,function(){

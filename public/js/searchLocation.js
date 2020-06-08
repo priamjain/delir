@@ -66,7 +66,7 @@ function success(pos) {
 
 sbt.addEventListener("click", function(){
   crd = geocoder["mapMarker"]["_lngLat"];
-  var string ="../actionPage/actionPage.html?";
+  var string ="../orders/new?";
   for(var key in variables){
     string = string + key +"="+variables[key]+"&";
   }

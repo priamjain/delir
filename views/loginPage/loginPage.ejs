@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="/css/loginPage.css">
 	<title>Login/SignUp</title>
 </head>
 <body>
@@ -15,17 +15,18 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="../actionPage/actionPage.html">Action Page</a>
+					<a class="nav-link" href="/orders/new">New Order</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="../searchOrders/searchOrders.html">Orders</a>
+					<a class="nav-link" href="/orders">Orders</a>
 				</li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="nav-item active"><a class="nav-link" href="../loginPage/login.html"></i>Login or SignUp</a></li>
-			</ul>
-		</div>
-	</nav>
+				<li class="nav-item active"><a class="nav-link" href="/login">Login or Signup</a></li>
+			</li>
+		</ul>
+	</div>
+</nav>
 
 	<div id="ologin" class="container w-25">
 		<div id="login" class="container rounded">
@@ -55,16 +56,16 @@
 					<h1>SignUp</h1>
 				</div>
 				<div class="form-group">
-					<label for="loginemail">Email address</label>
-					<input type="email" class="form-control" id="loginemail1">
+					<label for="signupemail">Email address</label>
+					<input type="email" class="form-control" id="signupemail1">
 				</div>
 				<div class="form-group">
-					<label for="loginpass">Password</label>
-					<input type="password" class="form-control" id="loginpass">
+					<label for="signuppass">Password</label>
+					<input type="password" class="form-control" id="signuppass">
 				</div>
 				<div class="form-group">
-					<label for="confirmloginpass">Confirm Password</label>
-					<input type="password" class="form-control" id="confirmloginpass">
+					<label for="confirmsignuppass">Confirm Password</label>
+					<input type="password" class="form-control" id="confirmsignuppass">
 				</div>
 				<button type="submit" class="btn btn-primary w-25">SignUp</button>
 			</form>
@@ -75,6 +76,6 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="login.js"></script>
+	<script type="text/javascript" src="/js/loginPage.js"></script>
 </body>
 </html>

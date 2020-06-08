@@ -17,7 +17,7 @@ searchbtns.forEach(function(btn){
 		variables.q=btn.id;
 		console.log(variables);
 
-		var string ="../searchLocation/search.html?";
+		var string ="../searchLocation?";
 		for(var key in variables){
 			string = string + key +"="+variables[key]+"&";
 		}
