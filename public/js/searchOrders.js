@@ -13,16 +13,16 @@ function error(){
 	console.log("Unable");
 };
 
-// var cards = document.querySelectorAll(".card");
-// for(var i=0;i<cards.length;i++)
-// {
-// 	cards[i].addEventListener("click", function(){
+$('#cardmodal').on('show.bs.modal', function (event) {
+  var card = $(event.relatedTarget); // Button that triggered the modal
+  var modal = $(this);
+  console.log(card.data('title'));
+  modal.find('.modal-title').text(card.data('title'));
+  modal.find('.modal-body #card-description').text(card.data('description'));
+  modal.find('.modal-body #card-shoparea').text(card.data('shoparea'));
+  modal.find('.modal-body #card-desarea').text(card.data('desarea'));
 
-// 		this.classList.toggle('col-6');
-// 		console.log(this.children[0].children[3].classList.toggle('d-none'));
-
-// 	});
-// };
+})
 
 
 

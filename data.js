@@ -3,39 +3,54 @@ var orders = require("./models/data");
 
 var data = [
 {
-	title:"ababa",
-	subtitle:"sub",
-	description:"very nice 3"
+	title:"Biscuits",
+	description:"Atta",
+	shoplat:"618236871",
+	shoplng:"531625312",
+	shoparea:"golden",
+	deslat:"531625312",
+	deslng:"618236871",
+	desarea:"asr"
 },
 {
-	title:"ab",
-	subtitle:"sub",
-	description:"very nice 2"
+	title:"Biscuits1",
+	description:"Atta",
+	shoplat:"618236871",
+	shoplng:"531625312",
+	shoparea:"golden",
+	deslat:"531625312",
+	deslng:"618236871",
+	desarea:"asr"
 },
 {
-	title:"abab",
-	subtitle:"sub",
-	description:"very nice 1"
+	title:"Biscuits2",
+	description:"Atta",
+	shoplat:"618236871",
+	shoplng:"531625312",
+	shoparea:"golden",
+	deslat:"531625312",
+	deslng:"618236871",
+	desarea:"asr"
 },
 {
-	title:"aba",
-	subtitle:"sub",
-	description:"very nice 1"
+	title:"Biscuits3",
+	description:"Atta",
+	shoplat:"618236871",
+	shoplng:"531625312",
+	shoparea:"golden",
+	deslat:"531625312",
+	deslng:"618236871",
+	desarea:"asr"
 },
 {
-	title:"a",
-	subtitle:"sub",
-	description:"very nice 1"
-},
-{
-	title:"aaaabab",
-	subtitle:"sub",
-	description:"very nice 1"
-},
-{
-	title:"atb",
-	subtitle:"sub",
-	description:"very nice 1"
+	title:"Biscuits4",
+	description:"Atta",
+	shoplat:"618236871",
+	shoplng:"531625312",
+	shoparea:"golden",
+	deslat:"531625312",
+	deslng:"618236871",
+	desarea:"asr"
 }
 ];
 
